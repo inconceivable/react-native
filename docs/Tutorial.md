@@ -32,7 +32,7 @@ class HelloWorldApp extends Component {
 AppRegistry.registerComponent('HelloWorldApp', () => HelloWorldApp);
 ```
 
-If you are feeling curious, you can play around with sample code directly in the web simulators. You can also paste it into your `index.ios.js` or `index.android.js` file to create a real app on your local machine.
+If you are feeling curious, you can play around with sample code directly in the web simulators. If you would like to test sample code on your own machine, it is important to know that the root component's name (here HelloWorldApp) must match the name of the project that you created. Thus to run sample code on your own machine, there are (at least) two options: create a new project whose name matches that of the root component, then copy all of the sample code into your `index.ios.js` or `index.android.js` file, or retain the name of the root component in an existing project, and modify the existing project using the sample code.
 
 ## What's going on here?
 
